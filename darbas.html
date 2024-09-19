@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thelist</title>
+    <link rel="stylesheet" href="cs.css">
+</head>
+<body>
+   <h1 class="main"> Užduotčiu sąrašas</h1>
+
+
+    <div class="flex"><label class = "words">Įveskite užduotį:</label>
+    
+   <input class ="Firstarea" placeholder="Reikia Atlikti..." id="myinput"></input> 
+</div>
+<div class="flex">
+   <label class = "words2">Prioritetas:</label>
+
+   
+
+   <select name="Prioritetas!" id="Prioritetas" class="words3">
+    <option value="Žemas">Žemas</option>
+    <option value="Normalus">Normalus</option>
+    <option value="Svarbus">Svarbus</option>
+    <option value="Žiaurei Svarbus">Žiaurei Svarbus</option>
+  </select>
+</div>
+
+ <button onclick="newElement()" class="addBtn">Pridėti užduotį</button>
+
+ <ul id="myul">
+ </ul>
+
+
+    <script src="csript.js"></script>
+</body>
+</html>

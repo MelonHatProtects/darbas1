@@ -1,0 +1,40 @@
+label, h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main{
+    margin-left: 190px;
+}
+
+.flex{
+
+    display: inline;
+}
+
+.words3{
+
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.addBtn{
+
+    margin-left: 10px;
+    background-color: rgb(72, 72, 102);
+    color: white;
+    border-radius: 10px;
+}
+
+.Firstarea{
+
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul li {
+    background: #a0a0a0;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
